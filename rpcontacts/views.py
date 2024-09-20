@@ -75,7 +75,7 @@ class AddDialog(QDialog):
         self.setLayout(self.layout)
         self.data = None
 
-        self.setupUI
+        self.setupUI()
 
     def setupUI(self):
         """Setup the Add Contact dialog's GUI."""
